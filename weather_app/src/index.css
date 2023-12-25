@@ -1,0 +1,73 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.weather-box{
+  width: 450px;
+  background-color: rgb(76, 175, 175);
+  padding: 30px;
+  border-radius: 10px;
+}
+.weather-inp input{
+  outline: none;
+  padding: 14px 75px;
+  border: none;
+  border-radius: 7px;
+}
+.weather-inp button{
+  padding: 14px 16px ;
+  border: none;
+  border-radius: 7px;
+  margin-left: 4px;
+  background-color: rgb(12, 11, 11);
+  color: white;
+  font-weight: bold;
+}
+.location{
+  font-weight: bold;
+  font-size: 25px;
+}
+.date{
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(20, 20, 20);
+  position: relative;
+  bottom: 19px;
+}
+
+.weather-degree{
+  font-size: 27px;
+  font-weight: bold;
+  position: relative;
+  bottom: 34px;
+}
+
+.mist{
+  font-size: 18px;
+  font-family: cursive;
+ position: relative;
+ bottom: 60px;
+}
+.present-weather{
+  position: relative;
+  bottom: 40px;
+}
+.weather-info{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.weather-info p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.wind,.humidity{
+  position: relative;
+  bottom: 15px;
+}
